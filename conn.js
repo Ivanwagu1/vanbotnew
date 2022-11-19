@@ -3737,10 +3737,7 @@ reply(`𝗧𝗜𝗞𝗧𝗢𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗
 
 Video sedang dikirim...`)
 conn.sendMessage(from,{video:{url:tt_res.result.video.link2}, caption:'No Watermark!'}, {quotes:msg})
-}).catch((err) => {
-reply('Terjadi Kesalahan!!\nUrl tidak valid')
 })
-}
 break
 
 default:
